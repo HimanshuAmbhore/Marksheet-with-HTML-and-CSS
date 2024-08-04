@@ -1,0 +1,97 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    flex-direction: column;
+}
+
+.marksheet {
+    width: 800px;
+    background: #fdbfc9;
+    padding: 20px;
+    border: 2px solid #d9534f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    min-height: 900px; /* Increase the height as needed */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d9534f;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    background-color: #fdbfc9;
+}
+
+.board {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 70%;
+}
+
+.profile {
+    width: 15%;
+    text-align: right;
+}
+
+.profile img {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid #d9534f;
+}
+
+.details, .subjects {
+    margin-top: 20px;
+}
+
+.details table, .subjects table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.details th, .details td, .subjects th, .subjects td {
+    border: 1px solid #d9534f;
+    padding: 10px;
+    text-align: center;
+}
+
+.Result {
+    margin-top: 20px;
+}
+
+.Result table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Result th, .Result td {
+    border: 1px solid #d9534f;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px; /* Adjust this value to move the footer up/down within the marksheet */
+}
+
+.footer p {
+    font-weight: bold;
+    color: #d9534f;
+}
